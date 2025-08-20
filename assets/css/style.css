@@ -1,0 +1,270 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+:root {
+    --xwell-green: #25a0a3;
+    --xwell-dark: #10105B;
+    --xwell-gray: #f5f5f5;
+    --xwell-blue: #10105B;
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.section-padding {
+    padding: 2.5rem 0;
+}
+
+.section-padding-sm {
+    padding: 2.5rem 0;
+}
+
+#hero {
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 1.6rem;
+    padding-bottom: 8rem;
+}
+
+#hero .logo {
+    height: auto;
+}
+
+#hero .hero-text h1 {
+    color: var(--xwell-blue);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(30px, 3.5vw, 55px);
+    line-height: clamp(38px, 4.5vw, 68px);
+}
+
+#hero .hero-text p {
+    color: var(--xwell-dark);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.cs_text {
+    color: var(--xwell-dark);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-button {
+    background-color: var(--xwell-blue);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 19px 37px;
+    border-radius: 16px;
+    border: 1px solid var(--xwell-blue);
+
+}
+
+.contact-button:hover {
+    background-color: #2222DD;
+    border-color: #2222DD;
+}
+
+#hero .app-store-icons img {
+    height: auto;
+    margin-right: 0.93rem;
+}
+
+#features {
+    background-color: #ffffff;
+}
+
+#features .feature-item {
+    text-align: center;
+}
+
+#features .feature-item img {
+    height: 60px;
+    margin-bottom: 1rem;
+}
+
+#features h2 {
+    color: var(--xwell-blue);
+    font-weight: 700;
+}
+
+#features .text-purple {
+    color: var(--xwell-blue);
+}
+
+#features .feature-box {
+    padding: 0px 0px 2.5rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+}
+
+#features .feature-box .icon-container {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#features .feature-box h5 {
+    color: var(--xwell-blue);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+#features .feature-box p {
+    margin-bottom: 0;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2D2D;
+}
+
+.salient-heading h3 {
+    color: var(--xwell-blue);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(20px, 2.5vw, 35px);
+    line-height: clamp(30px, 4vw, 68px);
+
+}
+
+.sailent_text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 480px;
+    margin: 0 auto;
+
+}
+
+#coming-soon {
+    background-color: rgba(153, 214, 45, 0.67);
+}
+
+#coming-soon h3 {
+    color: var(--xwell-blue);
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(24px, 3vw, 45px);
+
+    line-height: clamp(38px, 5vw, 68px);
+}
+
+#coming-soon .app-store-icons img {
+    height: 50px;
+    margin: 0 0.5rem;
+}
+
+#enter-email {
+
+    text-align: center;
+}
+
+#enter-email h4, #enter-email p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #392080;
+}
+
+.send_btn {
+    right: auto;
+    bottom: 15px;
+    left: 80%;
+
+
+}
+
+.send_btn button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #99D62D;
+    border-radius: 4px;
+}
+
+#enter-email .form-control {
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 21px 10px 21px 16px;
+    background: #392080;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: #fff;
+}
+
+#enter-email .form-control::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+#footer {
+    background-color: rgba(57, 32, 128, 1);
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+#footer .social-icons img {
+    height: 25px;
+    margin-left: 1rem;
+}
+
+#footer .text-light-gray {
+   font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    #hero .hero-image {
+        display: none;
+    }
+}
